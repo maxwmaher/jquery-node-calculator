@@ -1,14 +1,14 @@
-### Server-Side Calculator
+## Server-Side Calculator
 
 In this challenge, I created a calculator interface that can accept any two numbers and add, subtract, multiply or divide them.  The numbers get stored in an object on the client side, then are posted to the server for calculation.  The server sends back the result, which displays for the user on the DOM.
 
-## Prerequisites
+### Prerequisites
 
 This software is required prior to starting the application.
 
 - [Node.js](https://nodejs.org/en/)
 
-## Installation
+### Installation
 
 Steps to get the development environment running.
 
@@ -16,15 +16,15 @@ Steps to get the development environment running.
 2) `npm install`
 3) `npm start`
 
-## Technologies Used
+### Technologies Used
 
 Built with jQuery, Node.js, and Bootstrap.
 
-## Screenshots:
+### Screenshots:
 
 ![calculator 1](images/max-calculator-1.png)
 ![calculator 2](images/max-calculator-2.png)
 
 
-## License
+### License
 [MIT](https://choosealicense.com/licenses/mit/)
