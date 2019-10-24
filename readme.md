@@ -16,7 +16,7 @@ Steps to get the development environment running.
 2) `npm install`
 3) `npm start`
 
-### Installation
+### Technologies Used
 
 Built with jQuery, Node.js, and Bootstrap.
 
