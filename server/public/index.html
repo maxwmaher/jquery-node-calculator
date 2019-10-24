@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Server Side Calculator</title>
+    <link rel="stylesheet" href="styles/bootstrap.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="vendors/jquery.js"></script>
+    <script src="scripts/client.js"></script>
+</head>
+
+<body>
+    <main class="container rounded">
+        <h1 class="jumbotron">Server Side Calculator</h1>
+        <section class="container rounded">
+            <span id="myAlert"></span>
+            <table id="table-main">
+                <tr id="tr-main">
+                    <td id="td-calculator">
+                        <div id="div-calculator">
+                            <div id="div-inputandclear" class="input-group mb-3">
+                                <input id="input-number" type="text" disabled>
+                                <button id="button-undo" class="undo btn btn-warning btn-circle btn-xl">Undo</button>
+                            </div>
+                            <div id="div-table-calc">
+                                <table id="table-calculator">
+                                    <tr>
+                                        <td class="td-calcbutton">
+                                            <button id="button-7" class="button-num btn btn-success btn-circle btn-xl"
+                                                data-value="7">7</button>
+                                        </td>
+                                        <td class="td-calcbutton">
+                                            <button id="button-7" class="button-num btn btn-success btn-circle btn-xl"
+                                                data-value="8">8</button>
+                                        </td>
+                                        <td class="td-calcbutton">
+                                            <button id="button-7" class="button-num btn btn-success btn-circle btn-xl"
+                                                data-value="9">9</button>
+                                        </td>
+                                        <td class="td-calcbutton">
+                                            <button id="button-add" class="button-num btn btn-info btn-circle btn-xl"
+                                                data-value="+">+</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td-calcbutton">
+                                            <button id="button-4" class="button-num btn btn-success btn-circle btn-xl"
+                                                data-value="4">4</button>
+                                        </td>
+                                        <td class="td-calcbutton">
+                                            <button id="button-5" class="button-num btn btn-success btn-circle btn-xl"
+                                                data-value="5">5</button>
+                                        </td>
+                                        <td class="td-calcbutton">
+                                            <button id="button-6" class="button-num btn btn-success btn-circle btn-xl"
+                                                data-value="6">6</button>
+                                        </td>
+                                        <td class="td-calcbutton">
+                                            <button id="button-subtract" class="button-num btn btn-info btn-circle btn-xl"
+                                                data-value="-">-</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td-calcbutton">
+                                            <button id="button-1" class="button-num btn btn-success btn-circle btn-xl"
+                                                data-value="1">1</button>
+                                        </td>
+                                        <td class="td-calcbutton">
+                                            <button id="button-2" class="button-num btn btn-success btn-circle btn-xl"
+                                                data-value="2">2</button>
+                                        </td>
+                                        <td class="td-calcbutton">
+                                            <button id="button-3" class="button-num btn btn-success btn-circle btn-xl"
+                                                data-value="3">3</button>
+                                        </td>
+                                        <td class="td-calcbutton">
+                                            <button id="button-multiply" class="button-num btn btn-info btn-circle btn-xl"
+                                                data-value="*">x</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td-calcbutton">
+                                            <button id="button-0" class="button-num btn btn-success btn-circle btn-xl"
+                                                data-value="0">0</button>
+                                        </td>
+                                        <td class="td-calcbutton">
+                                            <button id="button-dot" class="button-num btn btn-success btn-circle btn-xl"
+                                                data-value=".">.</button>
+                                        </td>
+                                        <td class="td-calcbutton">
+                                            <button id="button-clear" class="clear btn btn-danger btn-circle btn-xl">C</button>
+                                        </td>
+                                        <td class="td-calcbutton">
+                                            <button id="button-divide" class="button-num btn btn-info btn-circle btn-xl"
+                                                data-value="/">/</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td id="td-equals" colspan="4" width="400">
+                                            <button id="button-equals" class="equals btn btn-info btn-circle btn-xl">=</button>
+                                        </td>
+                                    </tr>
+                            </div>
+                        </div>
+
+            </table>
+            </td>
+
+            </div>
+            <td id="td-history">
+                <div id="div-history">
+                    <div id="div-deleteButton">
+                        <button id="button-clearHistory" class="button-removeAll btn btn-danger btn-circle btn-xl">Remove
+                            All</button>
+                    </div>
+                    <p>
+                        <ul id="ul-history">
+
+                        </ul>
+                    </p>
+                </div>
+            </td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="div-result">
+                        <span id="span-result"></span>
+                    </div>
+                </td>
+            </tr>
+            </table>
+        </section>
+    </main>
+</body>
+
+</html>
