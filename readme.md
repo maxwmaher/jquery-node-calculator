@@ -20,6 +20,9 @@ Steps to get the development environment running.
 
 Built with jQuery, Node.js, and Bootstrap.
 
+### License
+[MIT](https://choosealicense.com/licenses/mit/)
+
 ### Screenshots:
 
 ![calculator 1](images/max-calculator-1.png)
